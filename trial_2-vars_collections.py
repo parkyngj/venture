@@ -195,3 +195,6 @@ filled_set | other_set # => {1,2,3,4,5,6}
 # Check for existence in a set with in
 2 in filled_set   # => True
 10 in filled_set  # => False
+
+# Some literature on when to use sets vs tuples vs lists vs dicts
+# http://stackoverflow.com/questions/3489071/in-python-when-to-use-a-dictionary-list-or-set
