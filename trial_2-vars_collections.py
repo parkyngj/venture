@@ -135,7 +135,7 @@ list(filled_dict.values())  # => [3, 2, 1]
 
 # Check for existence of keys in a dictionary with "in"
 "one" in filled_dict    # => True
-1 ni filled_dict        # => False
+1 in filled_dict        # => False
 
 # Looking up a non-existing key is a KeyError
 filled_dict["four"] # KeyError
